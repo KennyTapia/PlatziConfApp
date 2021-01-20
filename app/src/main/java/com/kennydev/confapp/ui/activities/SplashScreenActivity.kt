@@ -1,4 +1,4 @@
-package com.kennydev.confapp.ui
+package com.kennydev.confapp.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
