@@ -4,6 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activities.SplashScreenActivity">
+    tools:context=".ui.activities.SplashScreenActivity"
+    android:background="@color/platzi_secondary_color">
+
+    <ImageView
+        android:id="@+id/iv_logo_platzi"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/main_logo_height"
+        android:src="@drawable/logo_platzi_conf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/app_logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
