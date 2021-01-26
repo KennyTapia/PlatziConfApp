@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/card_corner"
+    app:cardElevation="@dimen/card_elevation"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_image_height_home"
+            android:contentDescription="@string/card_image_description"
+            android:src="@mipmap/ic_launcher"
+            android:layout_margin="@dimen/marginHomeSubtitle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/speaker_name_place_holder"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/titleSize"
+            android:textColor="@color/platzi_secondary_color"
+            android:layout_marginEnd="@dimen/marginHomeSubtitle"
+            android:layout_marginStart="@dimen/marginHomeSubtitle"
+            android:layout_marginTop="@dimen/marginHomeSubtitle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/speaker_job"
+            android:textSize="@dimen/subtitle_size"
+            android:textColor="@color/platzi_main_color"
+            android:gravity="center_horizontal"
+            android:layout_marginEnd="@dimen/marginHomeSubtitle"
+            android:layout_marginStart="@dimen/marginHomeSubtitle"
+            android:layout_marginTop="@dimen/marginHomeSubtitle"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -2,4 +2,15 @@
 <resources>
     <dimen name="main_logo_height">45dp</dimen>
     <dimen name="toolbar_height">30dp</dimen>
+    <dimen name="card_corner">4dp</dimen>
+    <dimen name="card_elevation">0dp</dimen>
+    <dimen name="card_image_height_home">150dp</dimen>
+    <dimen name="titleSize">20sp</dimen>
+    <dimen name="marginHomeSubtitle">10dp</dimen>
+    <dimen name="subtitle_size">15sp</dimen>
+    <dimen name="card_margin">15dp</dimen>
+    <dimen name="schedule_title">30sp</dimen>
+    <dimen name="schedule_subtitle">20sp</dimen>
+    <dimen name="detail_conference_hour_margin">5dp</dimen>
+    <dimen name="ic_twitter_size">45dp</dimen>
 </resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_item_schedule_hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hour_place_holder"
+                android:gravity="right|bottom"
+                android:textSize="@dimen/schedule_title"
+                android:textColor="@color/platzi_accent_color"
+                android:textStyle="bold"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/tv_item_schedule_AMPM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hour_time_place_holder"
+                android:gravity="right|bottom"
+                android:textSize="@dimen/schedule_subtitle"
+                android:textColor="@color/platzi_main_color"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_schedule_conference_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/conference_name_place_holder"
+                android:textSize="20sp"
+                android:textColor="@color/platzi_secondary_color"
+                android:ellipsize="end"
+                android:lines="1"/>
+
+            <TextView
+                android:id="@+id/tv_schedule_conference_speaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/speaker_name_place_holder"
+                android:textSize="15sp"
+                android:textColor="@color/platzi_main_color"
+                android:ellipsize="end"
+                android:lines="1"/>
+
+            <TextView
+                android:id="@+id/tv_schedule_tag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tag_place_holder"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
